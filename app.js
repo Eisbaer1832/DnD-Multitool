@@ -23,3 +23,13 @@ app.get('/', (_, res) => {
 
 app.listen(port, () => {
   console.log(`App listening on port ${port}!`)})
+
+
+app.post('/public/check_code', function(req, res) {
+  let check_code = req.body.code;
+  let status = false
+  if (check_code == "1" || "Eins" || "eins") {
+    res.send("true")
+  }else{
+    res.send("false")}
+});

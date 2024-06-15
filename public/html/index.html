@@ -17,12 +17,12 @@
         <div class="container">
             <span class="header randomletters">
                 <h1>H</h1>
-                <h1>E</h1>
+                <h1>A</h1>
                 <h1>L</h1>
                 <h1>L</h1>
                 <h1>O</h1>
             </span>
-            <span class="header fancyschmancy">Woooow</span>
+            <span class="header fancyschmancy">DU</span>
         </div>
         
         <div class="input_div">
@@ -38,9 +38,7 @@
                 Die Mitte des geozentrischen Weltbild benötigt ihre Hilfe. <br>
                 <br>
                 Wer sich dieser Aufgabe gewachsen fühlt und bereit ist, unser aller Sicherheit, zusammen mit einem Dutzend weiterer Personen zu wahren, möge dem Seitenverlauf weiter folgen.
-                .
-                
-                
+                              
             </p>
             
             </p> <small> Martin der Busch </small></p>
@@ -51,23 +49,30 @@
 
     <section class="section">
         <div class="container letter"> 
-            <i><p class="riddle">Was schmeckt besser, als es riecht?</p></i>
+            <i><p class="riddle">Wenn Elf plus Zwei Eins ergibt, was ergibt neun plus Fünf?</p></i>
             <div class="card">
-                <h2><svg class="icon" aria-hidden="true">
-                  <use xlink:href="#icon-coffee" href="#icon-coffee" /></svg>Antwort</h2>
+                <h2 id="response">Antwort</h2>
                 <label class="input">
-                  <input class="input__field" type="text" placeholder=" " />
+                  <input id="code_input" class="input__field" type="text" placeholder=" " />
                 </label>
                 <div class="button-group">
-                  <button>Send</button>
+                  <button onclick="codecheck()">Send</button>
                 </div>
               </div>
         <div>
     </section>
 
+
+    <section id="final_letter" class="section" style="display: none;">
+        <div class="container letter"> 
+            <h2>Herzlichen Glückwunsch!</h2>
+            <p>Folge nun <a href="https://chat.whatsapp.com/HBAO6UkqWScJkLS9epSrtF">diesem Link</a> um alles weitere zu erfahren!</p>
+        <div>
+    </section>
+
 </body>
+<script src="/public/js/jquery-3.6.0.min.js"></script>
 <script src="/public/js/script.js"></script>
 <script src="/public/js/blurblob.js"></script>
 <script src="/public/js/gestures.js"></script>
-<script src="/public/js/observers.js"></script>
 </html>
